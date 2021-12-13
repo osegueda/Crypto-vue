@@ -23,8 +23,8 @@ npm run build
 ```
 npm run lint
 ```
-###Pagina
-La pagina 👉[Crypto-Exchange](https://cryptos21-exchange.netlify.app/).
+### Pagina
+Ir 👉[Crypto-Exchange](https://cryptos21-exchange.netlify.app/).
 
 ### Customize configuration
 
