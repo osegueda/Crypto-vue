@@ -1,0 +1,33 @@
+{
+  "name": "plat-proyect",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@saeris/vue-spinners": "^1.0.8",
+    "chart.js": "^2.8.0",
+    "core-js": "^3.6.5",
+    "numeral": "^2.0.6",
+    "tailwindcss": "^1.1.2",
+    "vue": "^2.6.11",
+    "vue-chartkick": "^0.6.1",
+    "vue-router": "^3.5.3"
+  },
+  "devDependencies": {
+    "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
