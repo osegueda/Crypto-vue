@@ -7,7 +7,7 @@
       <div class="flex flex-col sm:flex-row justify-around items-center">
         <div class="flex flex-col items-center">
           <img
-            :src="`https://static.coincap.io/assets/icons/${asset.symbol.toLowerCase()}@2x.png`"
+            :src="`https://static.coincap.io/assets/icons/${asset.symbol.toLocaleLowerCase()}@2x.png`"
             :alt="asset.name"
             class="w-20 h-20 mr-5"
           />
@@ -167,11 +167,15 @@ export default {
       ]);
     },
   },
-  watch: {
+  /*watch: {
     //Asi cada vez que la ruta sea cambiada en $route el watcher se ejecute
     $route() {
       this.getCoin;
     },
+  },*/
+  beforeRouteUpdate(to, from, next) {
+    next();
+    this.getCoin();
   },
   created() {
     this.getCoin();
